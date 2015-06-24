@@ -1,0 +1,1 @@
+Codice relativo all'articolo [Template con Apache Velocity](http://www.javastaff.com/2015/06/10/template-con-apache-velocity/)
