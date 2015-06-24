@@ -1,0 +1,17 @@
+#parse( $header )
+
+#if( $livello >= 7 )
+    Caro dirigente
+#elseif( $livello <= 5 )
+    Caro sottoposto
+#else
+    Caro impiegato
+#end
+
+Ecco una lista di oggetti
+#foreach( $item in $itemList )
+    $item
+#end
+
+#include ($footer)
+

@@ -1,0 +1,13 @@
+#macro (visualizza $utente)
+   Nome: $utente.getNome()
+   Cognome: $utente.getCognome()
+   Codice Fiscale: $utente.getCodiceFiscale()
+
+#end
+
+Dettagli utenti
+------------
+#foreach ($utente in $utenteList)
+   #visualizza($utente)
+#end
+------------
